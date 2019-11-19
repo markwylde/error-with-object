@@ -1,0 +1,14 @@
+{
+  "name": "error-with-object",
+  "version": "1.0.0",
+  "description": "The inbuilt Error class but that accepts objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.11.0"
+  }
+}
