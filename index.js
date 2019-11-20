@@ -1,6 +1,8 @@
+const { inspect } = require('util');
+
 class ErrorObject extends Error {
   constructor (obj) {
-    super(obj.message || JSON.stringify(obj));
+    super(obj.message || inspect(obj));
 
     Object.assign(this, obj);
   }
